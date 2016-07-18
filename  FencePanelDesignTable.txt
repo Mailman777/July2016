@@ -1,0 +1,673 @@
+/PROG  ADAMROCKS
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "WeldPRO Auto-Gen";
+PROG_SIZE	= 943;
+CREATE		= DATE 16-06-28  TIME 10:42:34;
+MODIFIED	= DATE 16-06-28  TIME 10:42:34;
+FILE_NAME	= ;
+VERSION		= 0;
+LINE_COUNT	= 13;
+MEMORY_SIZE	= 1263;
+PROTECT		= READ_WRITE;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= 1,*,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+  ARC : TRUE ; 
+  ARC Welding Equipment : 1,*,*,*,*;
+/MN
+   1:  !WeldPRO Auto-Generated TPP ;
+   2:  !Part outer_mast-1531658, Feature ;
+   3:   ;
+   4:  UFRAME_NUM=0 ;
+   5:  UTOOL_NUM=1 ;
+   6:  !Feature Approach ;
+   7:J P[1] 100% FINE    ;
+   8:L P[1] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   9:L P[2] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   10:L P[3] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   11:L P[4] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   12:L P[5] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   13:L P[6] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   14:L P[7] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   15:L P[8] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   16:L P[9] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   17:L P[10] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   18:L P[11] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   19:L P[12] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   20:L P[13] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   21:L P[14] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   22:L P[15] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   23:L P[16] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   24:L P[17] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   25:L P[18] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   26:L P[19] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   27:L P[20] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   28:L P[21] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   29:L P[22] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   30:L P[23] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   31:L P[24] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   32:L P[25] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   33:L P[26] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   34:L P[27] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   35:L P[28] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   36:L P[29] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   37:L P[30] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   38:L P[31] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   39:L P[32] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   40:L P[33] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   41:L P[34] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   42:L P[35] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   43:L P[36] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   44:L P[37] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   45:L P[38] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   46:L P[39] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   47:L P[40] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   48:L P[41] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   49:L P[42] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   50:L P[43] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   51:L P[44] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   52:L P[45] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   53:L P[46] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   54:L P[47] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   55:L P[48] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   56:L P[49] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   57:L P[50] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   58:L P[51] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   59:L P[52] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   60:L P[53] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   61:L P[54] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   62:L P[55] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   63:L P[56] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   64:L P[57] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   65:L P[58] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   66:L P[59] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   67:L P[60] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   68:L P[61] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   69:L P[62] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   70:L P[63] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   71:L P[64] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   72:L P[65] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   73:L P[66] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   74:L P[67] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   75:L P[68] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   76:L P[69] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   77:L P[70] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   78:L P[71] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   79:L P[72] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   80:L P[73] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   81:L P[74] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   82:L P[75] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   83:L P[76] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   84:L P[77] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   85:L P[78] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;   86:L P[79] 2000mm/sec FINE  
+    : Weld Start E1[1,1]   ;   87:L P[80] WELD_SPEED FINE 
+	: Weld End E1[1,1]   ;/POS
+P[1] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 159.000 mm, 	Y = 200.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[2] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 184.400 mm, 	Y = 200.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[3] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 159.000 mm, 	Y = 500.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[4] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 184.400 mm, 	Y = 500.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[5] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 159.000 mm, 	Y = 1900.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[6] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 184.400 mm, 	Y = 1900.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[7] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 159.000 mm, 	Y = 2100.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[8] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 184.400 mm, 	Y = 2100.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[9] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 360.622 mm, 	Y = 200.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[10] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 386.022 mm, 	Y = 200.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[11] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 360.622 mm, 	Y = 500.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[12] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 386.022 mm, 	Y = 500.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[13] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 360.622 mm, 	Y = 1900.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[14] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 386.022 mm, 	Y = 1900.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[15] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 360.622 mm, 	Y = 2100.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[16] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 386.022 mm, 	Y = 2100.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[17] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 562.244 mm, 	Y = 200.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[18] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 587.644 mm, 	Y = 200.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[19] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 562.244 mm, 	Y = 500.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[20] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 587.644 mm, 	Y = 500.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[21] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 562.244 mm, 	Y = 1900.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[22] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 587.644 mm, 	Y = 1900.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[23] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 562.244 mm, 	Y = 2100.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[24] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 587.644 mm, 	Y = 2100.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[25] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 763.867 mm, 	Y = 200.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[26] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 789.267 mm, 	Y = 200.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[27] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 763.867 mm, 	Y = 500.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[28] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 789.267 mm, 	Y = 500.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[29] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 763.867 mm, 	Y = 1900.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[30] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 789.267 mm, 	Y = 1900.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[31] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 763.867 mm, 	Y = 2100.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[32] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 789.267 mm, 	Y = 2100.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[33] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 965.489 mm, 	Y = 200.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[34] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 990.889 mm, 	Y = 200.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[35] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 965.489 mm, 	Y = 500.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[36] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 990.889 mm, 	Y = 500.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[37] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 965.489 mm, 	Y = 1900.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[38] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 990.889 mm, 	Y = 1900.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[39] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 965.489 mm, 	Y = 2100.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[40] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 990.889 mm, 	Y = 2100.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[41] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1167.111 mm, 	Y = 200.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[42] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1192.511 mm, 	Y = 200.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[43] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1167.111 mm, 	Y = 500.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[44] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1192.511 mm, 	Y = 500.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[45] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1167.111 mm, 	Y = 1900.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[46] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1192.511 mm, 	Y = 1900.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[47] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1167.111 mm, 	Y = 2100.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[48] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1192.511 mm, 	Y = 2100.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[49] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1368.733 mm, 	Y = 200.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[50] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1394.133 mm, 	Y = 200.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[51] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1368.733 mm, 	Y = 500.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[52] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1394.133 mm, 	Y = 500.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[53] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1368.733 mm, 	Y = 1900.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[54] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1394.133 mm, 	Y = 1900.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[55] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1368.733 mm, 	Y = 2100.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[56] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1394.133 mm, 	Y = 2100.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[57] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1570.356 mm, 	Y = 200.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[58] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1595.756 mm, 	Y = 200.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[59] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1570.356 mm, 	Y = 500.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[60] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1595.756 mm, 	Y = 500.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[61] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1570.356 mm, 	Y = 1900.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[62] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1595.756 mm, 	Y = 1900.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[63] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1570.356 mm, 	Y = 2100.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[64] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1595.756 mm, 	Y = 2100.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[65] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1771.978 mm, 	Y = 200.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[66] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1797.378 mm, 	Y = 200.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[67] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1771.978 mm, 	Y = 500.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[68] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1797.378 mm, 	Y = 500.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[69] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1771.978 mm, 	Y = 1900.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[70] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1797.378 mm, 	Y = 1900.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[71] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1771.978 mm, 	Y = 2100.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[72] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1797.378 mm, 	Y = 2100.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[73] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1973.600 mm, 	Y = 200.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[74] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1999.000 mm, 	Y = 200.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[75] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1973.600 mm, 	Y = 500.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[76] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1999.000 mm, 	Y = 500.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[77] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1973.600 mm, 	Y = 1900.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[78] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1999.000 mm, 	Y = 1900.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[79] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1973.600 mm, 	Y = 2100.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+P[80] {
+   GP1:
+	UF: 0, UT : 1,	CONFIG : 'N U T, 0, 0, 0',
+	X = 1999.000 mm, 	Y = 2100.000 mm, 	Z = 100.000 mm,
+	W = 0.000 deg, 	P = 45.000 deg,	R = 90.000 deg,
+	E1 = 200.000 mm
+};
+/END
